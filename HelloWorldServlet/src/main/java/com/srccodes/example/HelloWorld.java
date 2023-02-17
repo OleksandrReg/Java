@@ -32,14 +32,12 @@ public class HelloWorld extends HttpServlet {
         PrintWriter printWriter = response.getWriter();
         printWriter.println("<h1>Hello World!</h1>");
 	}
-
 	
-	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse)
+	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse) 
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter printWriter = response.getWriter();
         printWriter.println("<h1>Hello World!</h1>");
 	}
-
 	
 	 * @see HttpServlet#doDelete(HttpServletRequest, HttpServletResponse)
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
